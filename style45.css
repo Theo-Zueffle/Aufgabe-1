@@ -4,17 +4,19 @@ body {
     background-size: auto;
     font-family: 'Times New Roman';
 }
-.container, .video{
-    margin: auto;
+.container{
+    width: 600px;
+    height: 400px;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .video{
     margin: auto;
     position: absolute;
-    top: 45px;
-    left: 40px;
+    top: 50px;
+    left: 30px;
 }
 iframe.container{
     position: absolute;
@@ -22,7 +24,7 @@ iframe.container{
 }
 img.banderole{
     position:relative;
-    bottom: 70px;;
-    left: 330px;
+    bottom: 75px;;
+    left: 335px;
     z-index: 1;
 }
